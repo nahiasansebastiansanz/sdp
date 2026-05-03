@@ -1,0 +1,19 @@
+{
+  "name": "sdp-proyecto",
+  "version": "1.0.0",
+  "description": "Sistema de Desarrollo Personal - Tests JavaScript",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --verbose --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}

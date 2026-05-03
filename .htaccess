@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Proteger archivos sensibles
+<FilesMatch "\.(ini|sql|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,9 @@
+   server = localhost
+   user   = root
+   pasw   = ""
+   bd     = sdp
+
+   osticket_enabled  = 0
+   osticket_url      = "http://127.0.0.1/osTicket/upload/api/http.php/tickets.json"
+   osticket_api_key  = "TU_API_KEY"
+   osticket_topic_id = 1

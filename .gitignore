@@ -1,0 +1,18 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Configuración con credenciales
+/config/conf.ini
+
+# PHPUnit
+.phpunit.result.cache
+/phpunit.xml.bak
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
